@@ -17,13 +17,13 @@ We leverage **EfficientNetV2S** for nadir view and **DenseNet121** for oblique v
 
 ## 🗂 Project Structure
 
-📂 TreeSpecies-MultiAngle
-├── Final_Fusion.ipynb
-├── requirements.txt
-├── README.md # Project description
-├── Images/
-│ ├── Fusion_Architecture.png
-│ └── Dataset.
+📂 TreeSpecies-MultiAngle<br>
+├── Final_Fusion.ipynb<br>
+├── requirements.txt<br>
+├── README.md <br>
+├── Images/ <br>
+│ ├── Fusion_Architecture.png <br>
+│ └── Dataset. <br>
 
 ##  How to Run
 ### 1. Clone the Repository

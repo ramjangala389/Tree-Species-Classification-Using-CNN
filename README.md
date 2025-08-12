@@ -2,10 +2,15 @@
 
 > UAV (Drone) imagery + Deep Learning fusion model for accurate, multi-angle tree species classification.
 
+<p align="center">
+  <img src="Images/Dataset.png" alt="Sample Images from Dataset for each species" width="500"/>
+</p>
+
 ![Tree Dataset Sample](Images/Dataset.png) <!-- Optional image -->
 
 ## 📜 Overview
 This project implements a **feature-level fusion deep learning model** to classify tree species from UAV-captured **nadir** and **oblique** RGB images.  
+There are three different species namely Spruce, Pine and Birch.  
 We leverage **EfficientNetV2S** for nadir view and **DenseNet121** for oblique view, combining their learned features for viewpoint-robust classification.
 
 **Key Highlights:**
@@ -45,7 +50,10 @@ jupyter notebook Final_Fusion.ipynb
     -> Oblique Branch: DenseNet121 (pretrained on ImageNet).
     -> Fusion: Global Average Pooling → Concatenation → Dense Layers → Softmax.
 
-![Fusion Model Archietcture](Images/Fusion_Architecture.png)
+<p align="center">
+  <img src="Images/Fusion_Architecture.png" alt="Fusion Model Architecture" width="500"/>
+</p>
+
 
 ---
 <p align="center"><i>A JRS Product</i></p>

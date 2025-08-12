@@ -6,7 +6,6 @@
   <img src="Images/Dataset.png" alt="Sample Images from Dataset for each species" width="500"/>
 </p>
 
-![Tree Dataset Sample](Images/Dataset.png) <!-- Optional image -->
 
 ## 📜 Overview
 This project implements a **feature-level fusion deep learning model** to classify tree species from UAV-captured **nadir** and **oblique** RGB images.  

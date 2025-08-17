@@ -20,19 +20,19 @@ We leverage **EfficientNetV2S** for nadir view and **DenseNet121** for oblique v
 ---
 
 ## 🗂 Project Structure
-
-📂 TreeSpecies-MultiAngle<br>
-├── Final_Fusion.ipynb<br>
-├── requirements.txt<br>
-├── README.md <br>
-├── Images/ <br>
-│ ├── Fusion_Architecture.png <br>
-│ └── Dataset. <br>
-
+```
+📂 TreeSpecies-MultiAngle
+├── Final_Fusion.ipynb
+├── requirements.txt
+├── README.md 
+├── Images/ 
+│ ├── Fusion_Architecture.png
+│ └── Dataset.
+```
 ##  How to Run
 ### 1. Clone the Repository
 
-git clone https://github.com/ramjangala389/Tree-Species-Classification-Using-CNN.git
+git clone https://github.com/username/Tree-Species-Classification-Using-CNN.git <br>
 cd Tree-Species-Classification-Using-CNN
 
 ### 2. Install Dependencies
